@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-dark text-white">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #111;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sanchari's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#para">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Skills">Media</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-5" style="background-color: #d99c0a;">
+        <div class="container">
+            <h1>Welcome to Sanchari's Portfolio</h1>
+            <p>Explore my thoughts, projects, and creativity.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Main Blog Content -->
+            <div class="col-md-8">
+                <section id="about" class="mb-5">
+                    <h2>About Me</h2>
+                    <img src="WhatsApp Image 2024-12-01 at 13.48.18_4192b399.jpg" class="img-fluid rounded shadow-lg" alt="..." style="width: 300px;">
+
+                    <p id = "para">Hi, I’m Sanchari Dey! I am currently pursuing my studies at Heritage Institute of Technology. With expertise in HTML, CSS, and Bootstrap, and an intermediate understanding of JavaScript, I focus on building responsive and visually appealing web designs. Additionally, I have hands-on experience with Figma, which helps me craft user-centric interfaces and streamline the design-to-development process. Let’s collaborate and turn innovative ideas into reality!</p>
+                </section>
+
+                <section id="blog" class="mb-5">
+                    <article class="mb-4">
+                        <h3>My Journey in Web Development</h3>
+                        <p>My journey began with learning HTML, followed by CSS, where I discovered the joy of styling and creating visually appealing designs. I participated in a hackathon where I explored Bootstrap to build responsive, modern designs and gained valuable real-world experience. Currently, I’m focused on mastering JavaScript and React to build interactive web applications.</p>
+                        <a href="read.html" class="btn btn-light btn-sm" style = "background-color: #d99c0a;">Read More</a>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-md-4 sidebar">
+                <h3>Contact Me</h3>
+                <p><i class="fas fa-envelope"></i> Email: sanchari.dey04@gmail.com</p>
+                <p><i class="fas fa-phone"></i> Phone: +91-7381074102</p>
+                <hr>
+                <h3 id = "Skills">Skills</h3>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Python Programming</li>
+                    <li>C Programming</li>
+                </ul>
+                <hr>
+                <h3 id = "Social">Social Links</h3>
+                <a href="https://github.com/Sancharidey2" class="btn btn-outline-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/sanchari-dey-819975280" class="btn btn-outline-secondary btn-sm"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/sanchariiiiiiii/" class="btn btn-outline-secondary btn-sm"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5" style="background-color: #111;">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">Projects</h2>
+            <div class="row">
+                <!-- Project 1 Card -->
+                <div class="col-md-6 col-sm-12 mb-4">
+                    <div class="card text-white bg-dark shadow-lg">
+                        <img src="alumni.jpg" class="card-img-top" alt="AlumNexus">
+                        <div class="card-body">
+                            <h5 class="card-title">AlumNexus</h5>
+                            <p class="card-text">A platform to connect alumni and current students, facilitating mentorship, networking, and collaboration.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 Card -->
+                <div class="col-md-6 col-sm-12 mb-4">
+                    <div class="card text-white bg-dark shadow-lg">
+                        <img src="tic-tok.jpg" class="card-img-top" alt="Tick Tock">
+                        <div class="card-body">
+                            <h5 class="card-title">Tick Tock</h5>
+                            <p class="card-text">An app designed to help university students balance academic and personal life with features like goal setting and fitness tracking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3" style="background-color: #d99c0a;">
+        <p>&copy; 2024 My Blog Portfolio | Built with 💻 and ❤️</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
